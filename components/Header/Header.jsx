@@ -7,9 +7,10 @@ export default function Header() {
             bg-slate-50 shadow-md p-5 md:px-10 z-50" >
                   <div className="relative flex items-center h-10
                   cursor-pointer my-auto">
-                        <Image src={'/images/Airbnb_Logo.png'}
+                        <Image src={"/images/Airbnb_Logo.png"}
                               layout={"fill"}
                               objectFit={"contain"} objectPosition={"left"}
+                              className="z-50"
                         />
                   </div>
                   <div className="flex items-center md:border-2 rounded-full py-2 md:shadow-sm">
