@@ -41,10 +41,10 @@ export default function Home({ exploreData, cardsData }) {
         </section>
         <section>
           <LargeCard
-          img={"/images/Large_Card.webp"}
-          title={"The Greatest Outdoors"}
-          description={"Wishlists curated by Airbnb."}
-          buttonText={"Get Inspired"}
+            img={"/images/Large_Card.webp"}
+            title={"The Greatest Outdoors"}
+            description={"Wishlists curated by Airbnb."}
+            buttonText={"Get Inspired"}
           />
         </section>
       </main>

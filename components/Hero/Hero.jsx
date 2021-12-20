@@ -9,6 +9,7 @@ export default function Hero() {
                         objectFit="cover"
                         objectPosition={"center"}
                         alt="Kid,dog and man hiking"
+                        priority="priority"
                   />
                   <div className="absolute top-1/2 w-full text-center">
                         <p className="text-sm sm:text-xl">Not sure where to go? Perfect.</p>
