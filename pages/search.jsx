@@ -59,8 +59,8 @@ export default function Search({ searchResults }) {
                                     ))}
                               </div>
                         </section>
-                        <section className="xl:inline-flex">
-                              <Map />
+                        <section className="inline-flex min-w-[400px]">
+                              <Map searchResults={searchResults} />
                         </section>
                   </main>
                   <Footer />
