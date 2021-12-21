@@ -5,7 +5,7 @@ import { v4 as uuid_v4 } from "uuid";
 import Footer from "../components/Footer/Footer";
 import Header from "../components/Header/Header";
 import InfoCard from "../components/InfoCard/InfoCard";
-import { uuid } from "uuidv4";
+import Map from "../components/Map/Map";
 
 // This gets called on every request
 export async function getServerSideProps() {
@@ -58,6 +58,9 @@ export default function Search({ searchResults }) {
                                           />
                                     ))}
                               </div>
+                        </section>
+                        <section className="xl:inline-flex">
+                              <Map />
                         </section>
                   </main>
                   <Footer />

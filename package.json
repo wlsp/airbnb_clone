@@ -15,6 +15,7 @@
     "react": "^17.0.2",
     "react-date-range": "^1.4.0",
     "react-dom": "^17.0.2",
+    "react-map-gl": "^6.1.18",
     "sass": "^1.45.1",
     "uuidv4": "^6.2.12"
   },
