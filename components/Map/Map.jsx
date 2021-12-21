@@ -39,7 +39,8 @@ export default function Map({ searchResults }) {
                                     <Popup onClose={() => setSelectedLocation({})}
                                           closeOnClick={true}
                                           latitude={result.lat}
-                                          longitude={result.long}>
+                                          longitude={result.long}
+                                          className="z-50">
                                           {result.title}
                                     </Popup>) : (
                                     false
