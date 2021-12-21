@@ -1,10 +1,12 @@
 import { GlobeAltIcon, MenuAlt1Icon, SearchIcon, UserCircleIcon, UsersIcon } from '@heroicons/react/solid'
+import { DateRangePicker } from 'react-date-range';
 import { useState } from "react";
 import { useRouter } from 'next/router';
+
+import 'react-date-range/dist/styles.css'; // main style file
+import 'react-date-range/dist/theme/default.css'; // theme css file
 import Image from "next/image";
-import 'react-date-range/dist/styles.css';
-import 'react-date-range/dist/theme/default.css';
-import DateRangePicker from "react-date-range/dist/components/DateRangePicker";
+
 
 export default function Header({ placeholder }) {
       const [searchInput, setSearchInput] = useState('');
@@ -79,6 +81,7 @@ export default function Header({ placeholder }) {
                               <DateRangePicker
                                     ranges={[selectionRange]}
                                     minDate={new Date()}
+                                    dateFormat="dd MMMM yy"
                                     rangeColors={["#fd5b61"]}
                                     onChange={handleSelect}
                               />

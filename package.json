@@ -8,15 +8,17 @@
   "dependencies": {
     "@heroicons/react": "^1.0.5",
     "date-fns": "^2.27.0",
+    "moment": "^2.29.1",
     "next": "latest",
+    "postcss": "^8.4.5",
     "react": "^17.0.2",
     "react-date-range": "^1.4.0",
     "react-dom": "^17.0.2",
+    "sass": "^1.45.1",
     "uuidv4": "^6.2.12"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.0",
-    "postcss": "^8.4.4",
     "tailwindcss": "^3.0.0"
   }
 }
