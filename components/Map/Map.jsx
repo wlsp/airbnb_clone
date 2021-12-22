@@ -21,6 +21,7 @@ export default function Map({ searchResults }) {
 
       return (
             <ReactMapGL
+            className='relative block'
                   mapStyle={"mapbox://styles/wlsp/ckxgofypm8fou14obzxbakhmf"}
                   mapboxApiAccessToken={process.env.mapbox_key}
                   {...viewport}

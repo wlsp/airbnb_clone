@@ -31,8 +31,8 @@ export default function Search({ searchResults }) {
       return (
             <div className="h-screen">
                   <Header placeholder={`${location} | ${range} | ${noOfGuests}`} />
-                  <main className="flex">
-                        <section className="flex-grow pt-14 px-6">
+                  <main className="flex flex-col">
+                        <section className="flex-grow pt-14 ">
                               <p className="text-xs">
                                     300+ Stays - {range} -  for {noOfGuests} guests
                               </p>
@@ -59,8 +59,9 @@ export default function Search({ searchResults }) {
                                     ))}
                               </div>
                         </section>
-                        <section className="inline-flex min-w-[400px]">
+                        <section className="h-[16rem] w-screen relative ">
                               <Map searchResults={searchResults} />
+
                         </section>
                   </main>
                   <Footer />
