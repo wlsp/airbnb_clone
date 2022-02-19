@@ -1,7 +1,6 @@
 import Router from "next/router";
 import "tailwindcss/tailwind.css"
 import '../styles/globals.scss'
-
 import ProgressBar from "@badrap/bar-of-progress";
 
 const progress = new ProgressBar({
